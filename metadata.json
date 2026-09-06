@@ -1,0 +1,6 @@
+{
+  "name": "Engagium Technologies",
+  "description": "Corporate website for Engagium Technologies — AI automation, software solutions, and digital enterprise ecosystem.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

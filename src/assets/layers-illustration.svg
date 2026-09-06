@@ -1,0 +1,46 @@
+<svg viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="layer1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EDE9FE"/>
+      <stop offset="100%" stop-color="#E4DFF5"/>
+    </linearGradient>
+    <linearGradient id="layer2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C7BEE6"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="layer3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#6D28D9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Base layer: business workflows -->
+  <g transform="translate(150,340)">
+    <polygon points="250,0 500,70 250,140 0,70" fill="url(#layer1)" stroke="#D9D2F0" stroke-width="1.5"/>
+  </g>
+
+  <!-- Middle layer: automation engine -->
+  <g transform="translate(150,220)">
+    <polygon points="250,0 500,70 250,140 0,70" fill="url(#layer2)" stroke="#A78BFA" stroke-width="1.5"/>
+  </g>
+
+  <!-- Top layer: AI intelligence -->
+  <g transform="translate(150,100)">
+    <polygon points="250,0 500,70 250,140 0,70" fill="url(#layer3)" stroke="#4C1D95" stroke-width="1.5"/>
+  </g>
+
+  <!-- connecting vertical pulses -->
+  <g stroke="#7C3AED" stroke-width="2" opacity="0.4">
+    <line x1="250" y1="170" x2="250" y2="290"/>
+    <line x1="400" y1="205" x2="400" y2="325"/>
+    <line x1="550" y1="170" x2="550" y2="290"/>
+  </g>
+
+  <circle cx="250" cy="170" r="4" fill="#7C3AED"/>
+  <circle cx="400" cy="205" r="4" fill="#7C3AED"/>
+  <circle cx="550" cy="170" r="4" fill="#7C3AED"/>
+
+  <circle cx="250" cy="290" r="4" fill="#A78BFA"/>
+  <circle cx="400" cy="325" r="4" fill="#A78BFA"/>
+  <circle cx="550" cy="290" r="4" fill="#A78BFA"/>
+</svg>
